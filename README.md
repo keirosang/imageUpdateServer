@@ -6,8 +6,8 @@
 server:
   MaxFileSize: 3 # 限制上传文件大小
   UploadPath: "/wwwroot/picgo/images" # 上传文件保存路径
-  HttpUlr: "http://8.134.193.71:15511/images/" # 图片调用URL
-  Token: "e583005c4b99107633bbe93a9fe59f84" # 上传Token验证
+  HttpUlr: "http://0.0.0.0:10000/images/" # 图片调用URL
+  Token: "e10adc3949ba59abbe56e057f20f883e" # 上传Token验证
 ```
 
 ## 使用
