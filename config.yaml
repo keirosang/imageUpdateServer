@@ -1,0 +1,5 @@
+server:
+  MaxFileSize: 3
+  UploadPath: "/wwwroot/picgo/images"
+  HttpUlr: "http://0.0.0.0:10000/images/"
+  Token: "e10adc3949ba59abbe56e057f20f883e"

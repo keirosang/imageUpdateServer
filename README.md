@@ -9,6 +9,13 @@ server:
   HttpUlr: "http://0.0.0.0:10000/images/" # 图片调用URL
   Token: "e10adc3949ba59abbe56e057f20f883e" # 上传Token验证
 ```
+服务端默认监听16001端口,可自行修改
+```bash
+err := r.Run(":16001")
+if err != nil {
+	return
+}
+```
 
 ## 使用
 将imageUpdateServer注册为服务
